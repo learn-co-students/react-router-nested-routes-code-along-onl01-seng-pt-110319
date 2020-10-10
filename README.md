@@ -383,7 +383,7 @@ share the URL for a specific movie!
 
 With our main task completed, let's take a quick step back and ask a question -
 what happens in this app when we visit `http://localhost:3000/movies` without a
-particular `movieId` parameter? Well, `MoviesPage` renders due to the top-level
+particular `` parameter? Well, `MoviesPage` renders due to the top-level
 `/movies` `Route`, but `MoviesPage` will only render `MoviesList`. There is no
 default `Route`, so we don't see anything. If we want to create a default 
 `Route` here, we can do so using the `match` prop once again:
